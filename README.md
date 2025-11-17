@@ -1,4 +1,5 @@
 🎬 **Anime Watchlist SQL Project**
+
 A fun and interactive SQL project to manage users, anime series, genres, watchlists, and ratings. Perfect for learning database relationships, queries, and constraints in MySQL.
 
 
