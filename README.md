@@ -1,10 +1,13 @@
 🎬 **Anime Watchlist SQL Project**
 
+
 A fun and interactive SQL project to manage users, anime series, genres, watchlists, and ratings. Perfect for learning database relationships, queries, and constraints in MySQL.
 
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 📁 **Project Structure**
 
@@ -16,6 +19,7 @@ A fun and interactive SQL project to manage users, anime series, genres, watchli
 🔷 📄 SQL_PROJECT.sql -----------------> (SQL script to create database, tables, and insert sample data.)
 
 🟣 📄 Anime.drawio --------------->  (ER diagram showing table relationships.)
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -29,15 +33,23 @@ A fun and interactive SQL project to manage users, anime series, genres, watchli
 
 
 
+
+
                                                         🏷️ Genres
                                                          Anime genres
                                                (Action, Romance, Sci-Fi, etc.)
 
+                                                                                              
+                                                                                                    
+                                                                                                    ⭐ Ratings
+                                                                                              (User ratings and reviews 
+                                                                                             for anime, from 1–10.)      
+                  📋 Watchlist
+              (Tracks which anime a user is 
+             watching, completed, or planning.)
+                
 
-                    
-                     
-                     📋 Watchlist	                                                                ⭐ Ratings	
-(Tracks which anime a user is watching, completed, or planning.)                   ( User ratings and reviews for anime (1-10).)
+
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -118,7 +130,7 @@ View all records
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-**🧠Example Queries**
+**🧠 Example Queries**
 
 
 **Find all anime a user is watching:**
